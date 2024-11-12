@@ -1,0 +1,31 @@
+{
+  "name": "web-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": "Giovan Cervantes",
+  "scripts": {
+    "dev": "nodemon api.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mysql2": "^3.11.3",
+    "nodemon": "^3.1.7"
+  }
+}
